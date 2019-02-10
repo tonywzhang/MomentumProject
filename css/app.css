@@ -1,0 +1,41 @@
+body{
+  background-color: black;
+}
+header {
+  background-color: #2196f3;
+  color: white;
+  height: 40px;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.center{
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.header{
+  height: 40px;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  position: absolute;
+  transform: translate(0%, 0%);
+  top: 0;
+  left: 0;
+}
+
+#time{
+  font-size: 10em;
+  font-weight: 500;
+  font-family: Arial;
+}
+
+#greeting{
+  font-size: 3em;
+}
